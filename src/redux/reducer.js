@@ -4,7 +4,9 @@ const initState = {
     isLoading : false,
     isError: false,
     coins: [],
-    singleCoin: {}
+    singleCoin: {
+        name: "LeoCoin"
+    }
 }
 
 export const reducer = (state=initState, {type, payload}) => {
